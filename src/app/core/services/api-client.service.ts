@@ -7,7 +7,7 @@ import { ChatResponse, CodeHelperResponse } from '../../models/api-responses.mod
   providedIn: 'root',
 })
 export class ApiClientService {
-  private apiUrl = 'http://localhost:3000/api';
+  private apiUrl = 'https://devfestajah-ai-be.onrender.com/api';
 
   constructor(private http: HttpClient) {}
 
